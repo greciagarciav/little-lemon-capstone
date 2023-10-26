@@ -1,0 +1,37 @@
+footer {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: flex-start;
+    border-top: 2px solid black;
+    margin-top: 100px;
+    padding: 20px;
+    gap: 30px;
+  }
+  footer > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+    height: 100px;
+  }
+  
+  footer > img {
+    width: 150px;
+    height: 50px;
+  }
+  footer p {
+    font-weight: bold;
+  }
+  ul img {
+    width: 20px;
+    float: right;
+    margin-left: 10px;
+  }
+  @media (max-width: 850px) {
+    footer {
+      flex-wrap: wrap;
+      height: 100%;
+      margin-bottom: 20px;
+    }
+  }

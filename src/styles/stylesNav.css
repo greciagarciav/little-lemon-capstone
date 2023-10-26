@@ -1,0 +1,72 @@
+nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: "Markazi Text", serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    box-sizing: border-box;
+    margin: 15px 0 15px;
+  }
+  nav > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+  }
+  li {
+    color: #495e57;
+    cursor: pointer;
+  }
+  img {
+    width: 200px;
+  }
+  nav .link {
+    text-decoration: none;
+    color: #495e57;
+  }
+  
+  .ul-menu {
+    display: none;
+    background-color: rgb(255, 255, 255);
+  }
+  .menu-icon-img {
+    display: none;
+  }
+  .menu-icon {
+    font-family: "Markazi Text", serif;
+    font-weight: bold;
+    color: #495e57;
+    text-decoration: none;
+    /* display: none; */
+  }
+  .link:visited {
+    color: #495e57;
+  }
+  
+  @media (max-width: 850px) {
+    .ul-destok {
+      display: none;
+    }
+    .menu-icon-img {
+      display: block;
+      width: 40px;
+    }
+    .menu-icon ul {
+      list-style: none;
+      font-size: 30pt;
+      text-align: center;
+    }
+    .menu-icon {
+      height: 150%;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    img {
+      width: 120px;
+    }
+  }

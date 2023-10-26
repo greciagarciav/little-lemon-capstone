@@ -1,0 +1,77 @@
+.weeks-specials {
+    margin-top: 120px;
+    padding: 0 10% 0 10%;
+  }
+  .weeks-specials > h2 {
+    margin-bottom: 40px;
+    font-family: "Markazi Text", serif;
+    font-weight: 400;
+    font-size: 25pt;
+  }
+  
+  .img-menu-element {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+  }
+  .icon-delivery {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    min-width: 670px;
+  }
+  .card-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #edefee;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  span {
+    float: inline-end;
+  }
+  
+  .card-menu > p {
+    margin: 20px;
+    width: 90%;
+    font-family: Karla;
+  }
+  .delivery-opcion,
+  .name-food {
+    font-weight: bold;
+    color: black;
+  }
+  span {
+    color: #dd865d;
+    margin-right: 4%;
+  }
+  
+  @media (max-width: 850px) {
+    .menu-container {
+      grid-template-columns: repeat(1, 80vw);
+      min-width: inherit;
+      justify-content: center;
+    }
+    .weeks-specials h2 {
+      font-size: 40pt;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    span {
+      float: right;
+    }
+    .img-menu-element {
+      height: auto;
+    }
+  }
+  @media (max-width: 650px) {
+    .weeks-specials h2 {
+      font-size: 23pt;
+      margin-bottom: 10px;
+    }
+  }

@@ -1,0 +1,25 @@
+.about-section {
+    display: flex;
+    padding: 0 10% 0 10%;
+    margin-top: 70px;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .about-section > img {
+    width: 300px;
+    border-radius: 20px;
+  }
+  .about-section > p {
+    font-size: 14pt;
+    color: rgb(0, 0, 0);
+    font-family: Karla;
+  }
+  @media (max-width: 850px) {
+    .about-section {
+      flex-wrap: wrap;
+    }
+    .about-section img {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,106 @@
+.reservationHero {
+    background-color: #495e57;
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    box-sizing: border-box;
+    z-index: 6;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    height: 145%;
+    align-items: flex-end;
+  }
+  .section1 {
+    width: 35%;
+  }
+  .reservationHero img {
+    height: 80%;
+    border-radius: 30px;
+    width: 250px;
+    margin-top: 30px;
+    float: right;
+  }
+  .section1 > p {
+    font-family: Karla;
+    color: #edefed;
+  }
+  h1 {
+    color: #f4ce14;
+    margin-top: 20px;
+  }
+  .reserve-btn {
+    width: 60%;
+    margin-top: 4%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f4ce14;
+    color: #333333;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .reserve-btn:hover {
+    background-color: #ee9972;
+  }
+  
+  .menu-btn {
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f4ce14;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .menu-btn:hover {
+    background-color: #ee9972;
+    color: white;
+  }
+  h3 {
+    color: #edefed;
+    margin: 5px 0 5px;
+  }
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media (max-width: 850px) {
+    .reservationHero {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 300px;
+    }
+    .reservationHero img {
+      display: none;
+    }
+    .section1 {
+      width: 100%;
+      font-size: 20pt;
+    }
+    .section2 {
+      width: 100%;
+      align-items: flex-start;
+    }
+    .menu-btn {
+      margin-top: 10%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .section1 {
+      font-size: 14pt;
+    }
+    .menu-btn {
+      width: 50%;
+    }
+    .section2 {
+      height: auto;
+    }
+  }
