@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/little-lemon-capstone/static/css/main.02712c31.css",
-    "main.js": "/little-lemon-capstone/static/js/main.c9883035.js",
+    "main.js": "/little-lemon-capstone/static/js/main.9a9b971b.js",
     "static/media/338c1bff.jpg": "/little-lemon-capstone/static/media/3d3cce7a3104bf255ed0e69195e2a157338c1bff.8c18e3cf861cd4fa9d0a.jpg",
     "static/media/eee8527d.jpg": "/little-lemon-capstone/static/media/5a56cb0a6cea7dd9e4260ae87b268bd3eee8527d.cc98b69b023d1447eeba.jpg",
     "static/media/restaurant.jpg": "/little-lemon-capstone/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
@@ -11,10 +11,10 @@
     "static/media/c190fc14.jpg": "/little-lemon-capstone/static/media/aa38384d3942a55696d8070552aed2f4c190fc14.e68246686f716ff6e5d8.jpg",
     "index.html": "/little-lemon-capstone/index.html",
     "main.02712c31.css.map": "/little-lemon-capstone/static/css/main.02712c31.css.map",
-    "main.c9883035.js.map": "/little-lemon-capstone/static/js/main.c9883035.js.map"
+    "main.9a9b971b.js.map": "/little-lemon-capstone/static/js/main.9a9b971b.js.map"
   },
   "entrypoints": [
     "static/css/main.02712c31.css",
-    "static/js/main.c9883035.js"
+    "static/js/main.9a9b971b.js"
   ]
 }
