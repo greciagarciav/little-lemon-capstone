@@ -14,8 +14,8 @@ function App() {
       </Header>
       <Main>
         <Routes>
-          <Route path="/" element={<MainPrincipal />} />
-          <Route path="/Reservations" element={<ReservationPage />} />
+          <Route path="little-lemon-capstone/" element={<MainPrincipal />} />
+          <Route path="little-lemon-capstone/Reservations" element={<ReservationPage />} />
        </Routes>
       </Main>
       <Footer></Footer>

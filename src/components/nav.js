@@ -31,7 +31,7 @@ function Nav() {
         ></img>
         <ul className="ul-destok">
           <li>
-            <LinkRouter className="link" to="./">
+            <LinkRouter className="link" to="little-lemon-capstone/">
               Home
             </LinkRouter>
           </li>
@@ -46,7 +46,7 @@ function Nav() {
             </Link>
           </li>
           <li>
-            <LinkRouter className="link" to="./Reservations">
+            <LinkRouter className="link" to="little-lemon-capstone/Reservations">
               {" "}
               Reservations
             </LinkRouter>
@@ -62,7 +62,7 @@ function Nav() {
           onClick={() => (menuBurguer.current.style.display = "none")}
         >
           <li>
-            <LinkRouter className="link" to="./">
+            <LinkRouter className="link" to="little-lemon-capstone/">
               Home
             </LinkRouter>
           </li>
@@ -87,7 +87,7 @@ function Nav() {
             </Link>
           </li>
           <li>
-            <LinkRouter className="link" to="./Reservations">
+            <LinkRouter className="link" to="little-lemon-capstone/Reservations">
               {" "}
               Reservations
             </LinkRouter>
