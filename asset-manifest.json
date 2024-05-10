@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/little-lemon-capstone/static/css/main.02712c31.css",
+    "main.js": "/little-lemon-capstone/static/js/main.49282cf0.js",
+    "static/media/338c1bff.jpg": "/little-lemon-capstone/static/media/3d3cce7a3104bf255ed0e69195e2a157338c1bff.8c18e3cf861cd4fa9d0a.jpg",
+    "static/media/eee8527d.jpg": "/little-lemon-capstone/static/media/5a56cb0a6cea7dd9e4260ae87b268bd3eee8527d.cc98b69b023d1447eeba.jpg",
+    "static/media/restaurant.jpg": "/little-lemon-capstone/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/278299c7.jpg": "/little-lemon-capstone/static/media/9beeddcd9d22dc711cd9fddc4a3393a7278299c7.25fc793faeb3d58ed9fb.jpg",
+    "static/media/28bd9745.jpg": "/little-lemon-capstone/static/media/725cbe0ca5da8536fc99c51e00d4d13628bd9745.d4cae6fac8384c2dae04.jpg",
+    "static/media/pngegg.png": "/little-lemon-capstone/static/media/pngegg.43e650b23d102174c34b.png",
+    "static/media/c190fc14.jpg": "/little-lemon-capstone/static/media/aa38384d3942a55696d8070552aed2f4c190fc14.e68246686f716ff6e5d8.jpg",
+    "index.html": "/little-lemon-capstone/index.html",
+    "main.02712c31.css.map": "/little-lemon-capstone/static/css/main.02712c31.css.map",
+    "main.49282cf0.js.map": "/little-lemon-capstone/static/js/main.49282cf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02712c31.css",
+    "static/js/main.49282cf0.js"
+  ]
+}
